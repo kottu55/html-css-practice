@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  width: 960px;
+  margin: 50px auto;
+  letter-spacing: -.4em;
+}
+
+.step {
+  padding: 10px;
+  border: 1px solid #eee;
+  width: 300px;
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+  letter-spacing: normal;
+}
+
+.step-num {
+  position: absolute;
+  background-color: orange;
+  color: white;
+  top: 0;
+  left: 0;
+  padding: 2px;
+}
+
+.step:last-child {
+margin-right: 0;
+}
