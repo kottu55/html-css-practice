@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.main-visual {
+  background-image: url(img/mv.jpg);
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 20px;
+  height: 400px;
+}
+
+.main-visual-text {
+  color: glay;
+  margin: 20px;
+  display: inline-block;
+}
+
+
+.contents {
+  width: 840px;
+  margin: 0 auto 50px;
+}
+
+.content {
+  padding: 30px 0;
+  border-bottom: 1px solid;
+}
+.content-img1 {
+   background-image: url(img/wc-logo.png);
+   height: 30px;
+}
+.content-img2 {
+   background-image: url(img/wcp-logo.png);
+}
+.content-img3 {
+   background-image: url(img/wcw-logo.png);
+}
+.content-img4 {
+   background-image: url(img/wcc-logo.png);
+}
